@@ -32,12 +32,13 @@ export class AppComponent {
   changeText(){
     this.colorName = this.nameForm.get('name')?.value;
     this.colorName = this.colorName.split("");
+    this.listColors.push(this.colors[this.count]);
     if(this.count >= 4){
       this.count = 0;
     } else {
       this.count ++;
     }
-    this.listColors.push(this.colors[this.count]);
+    
   }
 
   color( index:number ){
