@@ -1,1 +1,120 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Strenuous Bl';
+    src: url('assets/fonts/strenuous\ bl.eot'); /* IE9 Compat Modes */
+    src: url('assets/fonts/strenuous\ bl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/strenuous-bl.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/strenuous\ bl.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/strenuous-bl.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dv-content{
+    display: contents;
+}
+
+.form-input{
+    display: block;
+   
+    padding: 14px;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    margin: 4px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #616262;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c6cfd9;
+    border-radius: 28px;
+    width: 316px;
+    margin: 0 auto;
+    outline: none;
+}
+
+.input-btn{
+    position: relative;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 8px 29px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 18px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btnFlt{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    border-radius: 42px;
+    height: -webkit-fill-available;
+    min-width: 115px;
+}
+
+.result{
+    font-family: Strenuous Bl;
+    font-size: 84px;
+    width: 100%;
+    display: flex;
+    //flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.logCont{
+    font-family: Strenuous Bl;
+    font-size: 84px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lyrics{
+    display: block;
+    opacity: 0.9;
+    margin-left: -16px;
+    min-width: 43px;
+}
+
+img.img-logo {
+    width: 125px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+label.hash {
+    font-size: 18px;
+    color: #8f3292;
+    text-align: right;
+    margin: 0 auto;
+    margin-right: 36px;
+    width: 100%;
+}
+
+.screen{
+    width: fit-content;
+    padding: 28px;
+}
+
+.canvas{
+    display: none;
+}
